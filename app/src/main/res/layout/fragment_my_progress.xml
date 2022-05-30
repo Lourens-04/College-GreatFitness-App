@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061C29"
+    android:screenOrientation="portrait"
+    tools:context=".MyProgressFragment" >
+
+    <ScrollView
+        android:id="@+id/scrollViewMyProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="133dp" />
+
+            <TextView
+                android:id="@+id/txbInfoStepGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Step Goal"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textColorHint="#F1D052"
+                android:textSize="30sp"
+                tools:text="My Step Goal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/txbUserStepsTaken"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="77sp"
+                android:text="0 "
+                android:textAlignment="center"
+                android:textColor="#F1D052"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txbSlash"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="__________________________________________"
+                android:textAlignment="center"
+                android:textColor="#F1D052" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/txbUserStepGoal"
+                android:layout_width="251dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="75sp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F1D052"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="___________________________________________________________________"
+                android:textColor="#D25E5A" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="23dp" />
+
+            <TextView
+                android:id="@+id/txbInfoWeightGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Weight Goal"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="30sp"
+                tools:text="My Weight Goal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/txbUserCurrentWeight"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75sp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F1D052"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txbSlash2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="__________________________________________"
+                android:textAlignment="center"
+                android:textColor="#F1D052" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/txbUserWeightGoal"
+                android:layout_width="251dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="75sp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#F1D052"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

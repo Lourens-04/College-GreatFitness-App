@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GreatFitness</string>
+    <string name="title_home">Home</string>
+    <string name="title_myactivity">My Activity</string>
+    <string name="title_myprogress">My Progress</string>
+    <string name="title_settings">Settings</string>
+    <string name="firstname_required">Please enter your Name</string>
+    <string name="lastname_required">Please enter your Last Name</string>
+    <string name="height_required">Please enter your Height</string>
+    <string name="weight_required">Please enter your Weight</string>
+    <string name="weightgoal_required">Please enter Your Weight Goal</string>
+    <string name="stepgoal_required">Please enter your Step Goal</string>
+    <string name="signin_password_required">Please enter a valid Password</string>
+    <string name="signin_email_required">Please enter a valid Email</string>
+    <string name="signup_password_required">Please enter a valid Password</string>
+    <string name="signup_email_required">Please enter a valid Email</string>
+    <string name="activityname_required">Please enter your Activity Name</string>
+    <string name="activity_required">Please enter your Activity</string>
+    <string name="duration_required">Please enter your Duration</string>
+    <string name="caloriesburned_required">Please enter your Calories Burned</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

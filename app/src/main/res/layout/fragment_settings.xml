@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061C29"
+    android:screenOrientation="portrait"
+    tools:context=".SettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#061C29">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="163dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="281dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/UserProfilePic"
+                    android:layout_width="197dp"
+                    android:layout_height="164dp" />
+
+                <Space
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="62dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="125dp"
+                    android:layout_height="53dp" />
+
+                <Button
+                    android:id="@+id/btnEditProfile"
+                    android:layout_width="171dp"
+                    android:layout_height="59dp"
+                    android:backgroundTint="#D25E5A"
+                    android:text="Edit Profile"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="125dp"
+                    android:layout_height="59dp" />
+
+                <Button
+                    android:id="@+id/btnLogOut"
+                    android:layout_width="170dp"
+                    android:layout_height="59dp"
+                    android:backgroundTint="#D25E5A"
+                    android:text="Log out"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+

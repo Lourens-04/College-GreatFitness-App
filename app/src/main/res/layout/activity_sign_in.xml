@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#061C29"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar6"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:background="#00008577"
+            android:minHeight="?attr/actionBarSize"
+            android:textAlignment="textStart"
+            android:theme="?attr/actionBarTheme"
+            app:title="\t\t\t\t\t\t\tGreat Fitness App"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:titleTextColor="#F44336" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="415dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_email_signin_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="75sp"
+                android:textColorHint="#E2E574">
+
+                <EditText
+                    android:id="@+id/txbEmail"
+                    android:layout_width="226dp"
+                    android:layout_height="75sp"
+                    android:backgroundTint="#F1D052"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:text=""
+                    android:textAlignment="textStart"
+                    android:textColor="#F1D052"
+                    android:textColorHint="#F1D052" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_password_signin_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="75sp"
+                android:textColorHint="#E2E574">
+
+                <EditText
+                    android:id="@+id/txbPassword"
+                    android:layout_width="226dp"
+                    android:layout_height="63dp"
+                    android:backgroundTint="#F1D052"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textAlignment="textStart"
+                    android:textColor="#F1D052"
+                    android:textColorHint="#F1D052" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <ProgressBar
+                android:id="@+id/prgbLogInProgress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnLogIn"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#D25E5A"
+                    android:text="Log In" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#D25E5A"
+                    android:text="Sign Up" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

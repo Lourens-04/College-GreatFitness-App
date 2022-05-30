@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#061C29"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Add New Activity" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#E2E575" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_activity_name_input_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#E2E574">
+
+                <EditText
+                    android:id="@+id/txbActivityName"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#F3E574"
+                    android:ems="10"
+                    android:hint="Activity Name"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    android:textColor="#F3E574"
+                    android:textColorHint="#F3E574" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="39dp"
+                android:layout_height="55dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_activity_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#E2E574">
+
+                <EditText
+                    android:id="@+id/txbActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F3E574"
+                    android:ems="10"
+                    android:hint="Activity"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+                    android:textColor="#F3E574"
+                    android:textColorHint="#F3E574" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_caloriesburned_input_layout"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="#E2E574">
+
+                <EditText
+                    android:id="@+id/txbCaloriesBurned"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F3E574"
+                    android:ems="10"
+                    android:hint="Calories Burned"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="textStart"
+                    android:textColor="#F3E574"
+                    android:textColorHint="#F3E574" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Space
+                android:layout_width="39dp"
+                android:layout_height="59dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_duration_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#E2E574">>
+
+                <EditText
+                    android:id="@+id/txbDuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F3E574"
+                    android:ems="10"
+                    android:hint="Duration"
+                    android:inputType="time"
+                    android:textAlignment="textStart"
+                    android:textColor="#F3E574"
+                    android:textColorHint="#F3E574" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnChoose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#D25E5A"
+                android:text="Select a Image" />
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="215dp"
+                android:layout_height="97dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFD25E5A"
+                android:text="Save" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
